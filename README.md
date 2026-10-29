@@ -4,6 +4,14 @@
 
 React + Vite frontend for the FUNewsManagementSystem administration assignment. This project uses mock authentication and browser `localStorage`; it does not connect to a backend or database.
 
+## Source filenames
+
+Source files in `src/` use the prefix `LuanLHCE191099_`, for example `LuanLHCE191099_App.jsx`, `LuanLHCE191099_LoginPage.jsx`, and `LuanLHCE191099_dataService.js`. Component and function names remain descriptive, such as `App`, `LoginPage`, and `login`.
+
+Vite/configuration entry files keep their standard names: `index.html`, `package.json`, `package-lock.json`, and `vite.config.js`.
+
+For a guided walkthrough, read [the execution-flow guide](./HUONG_DAN_ASSIGNMENT01_THEO_LUONG.md).
+
 ## Requirements
 
 - Node.js and npm
@@ -37,7 +45,7 @@ Authentication is only a frontend mock. These credentials are not suitable for a
 |---|---|---|
 | Navigation | React Router with nested Admin layout | Each management area has a URL and navigation remains within the SPA. |
 | Authentication state | `App` initializes from `currentUser` in `localStorage` | Refresh can retain the mock login; logout clears it. |
-| Data persistence | `dataService.js` stores mock records in `localStorage` | No backend/database is required; data is limited to this browser. |
+| Data persistence | `LuanLHCE191099_dataService.js` stores mock records in `localStorage` | No backend/database is required; data is limited to this browser. |
 | CRUD dialog | Each page reuses one dialog with create/edit mode and selected ID | Avoids duplicating forms while keeping the active record explicit. |
 | Search | Keep source arrays unchanged and derive filtered arrays from the keyword | Clearing search restores the full list. |
 | Component structure | `App` for routes/auth, `components/Layout` for shared layout, `pages` for screens, `services` for mock data | Keeps route, screen, layout, and storage responsibilities separate. |

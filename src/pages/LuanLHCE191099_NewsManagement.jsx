@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Table, Button, Form, InputGroup, Modal, Badge, Card } from 'react-bootstrap';
-import { getNews, saveNews, getCategories, getUsers, getCurrentUser } from '../services/dataService';
+import { getNews, saveNews, getCategories, getUsers, getCurrentUser } from '../services/LuanLHCE191099_dataService';
 import { Edit, Trash2, Plus, Search } from 'lucide-react';
 
 function NewsManagement() {

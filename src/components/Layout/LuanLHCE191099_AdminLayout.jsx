@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import Header from './Header';
-import Sidebar from './Sidebar';
+import Header from './LuanLHCE191099_Header';
+import Sidebar from './LuanLHCE191099_Sidebar';
 
 function AdminLayout({ onLogout }) {
   return (

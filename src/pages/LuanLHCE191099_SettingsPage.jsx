@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import { getCurrentUser } from '../services/dataService';
+import { getCurrentUser } from '../services/LuanLHCE191099_dataService';
 
 function SettingsPage() {
   const user = getCurrentUser();

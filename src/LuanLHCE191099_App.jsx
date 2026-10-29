@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import LoginPage from './pages/LoginPage';
-import AdminLayout from './components/Layout/AdminLayout';
-import DashboardPage from './pages/DashboardPage';
-import CategoryManagement from './pages/CategoryManagement';
-import NewsManagement from './pages/NewsManagement';
-import UserManagement from './pages/UserManagement';
-import SettingsPage from './pages/SettingsPage';
-import { getCurrentUser } from './services/dataService';
+import LoginPage from './pages/LuanLHCE191099_LoginPage';
+import AdminLayout from './components/Layout/LuanLHCE191099_AdminLayout';
+import DashboardPage from './pages/LuanLHCE191099_DashboardPage';
+import CategoryManagement from './pages/LuanLHCE191099_CategoryManagement';
+import NewsManagement from './pages/LuanLHCE191099_NewsManagement';
+import UserManagement from './pages/LuanLHCE191099_UserManagement';
+import SettingsPage from './pages/LuanLHCE191099_SettingsPage';
+import { getCurrentUser } from './services/LuanLHCE191099_dataService';
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(() => Boolean(getCurrentUser()));

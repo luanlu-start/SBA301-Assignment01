@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Row, Col } from 'react-bootstrap';
-import { getCategories, getNews, getUsers } from '../services/dataService';
+import { getCategories, getNews, getUsers } from '../services/LuanLHCE191099_dataService';
 
 function DashboardPage() {
   const categoriesCount = getCategories().length;
